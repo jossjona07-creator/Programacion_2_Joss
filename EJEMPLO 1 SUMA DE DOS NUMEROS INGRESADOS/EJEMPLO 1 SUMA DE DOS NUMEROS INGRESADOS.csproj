@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8E7157F8-A6A5-4CA2-A557-BF9FE2619453}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>EJEMPLO_1_SUMA_DE_DOS_NUMEROS_INGRESADOS</RootNamespace>
     <AssemblyName>EJEMPLO 1 SUMA DE DOS NUMEROS INGRESADOS</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -29,6 +29,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,6 +51,13 @@
     <Compile Include="CLASE MULTIPLICACION JOSS.Designer.cs">
       <DependentUpon>CLASE MULTIPLICACION JOSS.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistro.Designer.cs">
+      <DependentUpon>frmRegistro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="suma clase joss.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -60,6 +70,9 @@
   <ItemGroup>
     <EmbeddedResource Include="CLASE MULTIPLICACION JOSS.resx">
       <DependentUpon>CLASE MULTIPLICACION JOSS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistro.resx">
+      <DependentUpon>frmRegistro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="suma clase joss.resx">
       <DependentUpon>suma clase joss.cs</DependentUpon>
