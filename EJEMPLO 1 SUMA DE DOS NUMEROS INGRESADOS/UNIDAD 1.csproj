@@ -45,38 +45,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CLASE MULTIPLICACION JOSS.cs">
+    <Compile Include="PRACTICA CLASE 1\Multiplicar Numeros.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CLASE MULTIPLICACION JOSS.Designer.cs">
-      <DependentUpon>CLASE MULTIPLICACION JOSS.cs</DependentUpon>
+    <Compile Include="PRACTICA CLASE 1\Multiplicar Numeros.Designer.cs">
+      <DependentUpon>Multiplicar Numeros.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRegistro.cs">
+    <Compile Include="PRACTICA CLASE 1\frmRegistro Usuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRegistro.Designer.cs">
-      <DependentUpon>frmRegistro.cs</DependentUpon>
+    <Compile Include="PRACTICA CLASE 1\frmRegistro Usuario.Designer.cs">
+      <DependentUpon>frmRegistro Usuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="suma clase joss.cs">
+    <Compile Include="PRACTICA CLASE 1\Sumar Numeros.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="suma clase joss.Designer.cs">
-      <DependentUpon>suma clase joss.cs</DependentUpon>
+    <Compile Include="PRACTICA CLASE 1\Sumar Numeros.Designer.cs">
+      <DependentUpon>Sumar Numeros.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CLASE MULTIPLICACION JOSS.resx">
-      <DependentUpon>CLASE MULTIPLICACION JOSS.cs</DependentUpon>
+    <EmbeddedResource Include="PRACTICA CLASE 1\Multiplicar Numeros.resx">
+      <DependentUpon>Multiplicar Numeros.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRegistro.resx">
-      <DependentUpon>frmRegistro.cs</DependentUpon>
+    <EmbeddedResource Include="PRACTICA CLASE 1\frmRegistro Usuario.resx">
+      <DependentUpon>frmRegistro Usuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="suma clase joss.resx">
-      <DependentUpon>suma clase joss.cs</DependentUpon>
+    <EmbeddedResource Include="PRACTICA CLASE 1\Sumar Numeros.resx">
+      <DependentUpon>Sumar Numeros.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

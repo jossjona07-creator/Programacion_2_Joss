@@ -1,0 +1,59 @@
+﻿using System;
+using System.Windows.Forms;
+
+namespace EJEMPLO_1_SUMA_DE_DOS_NUMEROS_INGRESADOS
+{
+    static class Program
+    {
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            string opcion = Microsoft.VisualBasic.Interaction.InputBox(
+                "Escriba el número del ejercicio que desea abrir:" + Environment.NewLine +
+                Environment.NewLine +
+                "1 - Registro" + Environment.NewLine +
+                "2 - Suma" + Environment.NewLine +
+                "3 - Multiplicación",
+                "SELECCIONAR EJERCICIO",
+                "1");
+
+            if (opcion == "1")
+            {
+                Application.Run(new frmRegistro());
+            }
+            else if (opcion == "2")
+            {
+                Form ventana = new Form();
+                ventana.Text = "Suma de dos números";
+                ventana.Width = 500;
+                ventana.Height = 350;
+
+                suma_clase_joss suma = new suma_clase_joss();
+                suma.Dock = DockStyle.Fill;
+
+                ventana.Controls.Add(suma);
+                Application.Run(ventana);
+            }
+            else if (opcion == "3")
+            {
+                Form ventana = new Form();
+                ventana.Text = "Multiplicación de dos números";
+                ventana.Width = 500;
+                ventana.Height = 350;
+
+                CLASE_MULTIPLICACION_JOSS multiplicacion = new CLASE_MULTIPLICACION_JOSS();
+                multiplicacion.Dock = DockStyle.Fill;
+
+                ventana.Controls.Add(multiplicacion);
+                Application.Run(ventana);
+            }
+            else
+            {
+                MessageBox.Show("Opción no válida.");
+            }
+        }
+    }
+}
