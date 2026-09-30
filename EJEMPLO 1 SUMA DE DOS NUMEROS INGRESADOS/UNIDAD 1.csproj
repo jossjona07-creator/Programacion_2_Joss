@@ -57,13 +57,13 @@
     <Compile Include="PRACTICA CLASE 1\frmRegistro Usuario.Designer.cs">
       <DependentUpon>frmRegistro Usuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
     <Compile Include="PRACTICA CLASE 1\Sumar Numeros.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="PRACTICA CLASE 1\Sumar Numeros.Designer.cs">
       <DependentUpon>Sumar Numeros.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
