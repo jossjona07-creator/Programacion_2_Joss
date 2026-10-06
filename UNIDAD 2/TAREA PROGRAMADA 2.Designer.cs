@@ -2,14 +2,10 @@
 {
     partial class Form1
     {
-        /// <summary>
-        /// Variable del diseñador necesaria.
-        /// </summary>
+        
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Limpiar los recursos que se estén usando.
-        /// </summary>
+    
         /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
         protected override void Dispose(bool disposing)
         {
@@ -22,10 +18,7 @@
 
         #region Código generado por el Diseñador de Windows Forms
 
-        /// <summary>
-        /// Método necesario para admitir el Diseñador. No se puede modificar
-        /// el contenido de este método con el editor de código.
-        /// </summary>
+        
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
@@ -40,41 +33,41 @@
             this.cAMBIARCOLORToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
+            
             // txtNumero1
-            // 
+            
             this.txtNumero1.Location = new System.Drawing.Point(201, 50);
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(100, 22);
             this.txtNumero1.TabIndex = 0;
-            // 
+            
             // txtNumero2
-            // 
+            
             this.txtNumero2.Location = new System.Drawing.Point(201, 124);
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(100, 22);
             this.txtNumero2.TabIndex = 1;
-            // 
+            
             // label1
-            // 
+            
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(121, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Numero 1";
-            // 
+           
             // label2
-            // 
+           
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(124, 124);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "Numero 2";
-            // 
+            
             // btnEvaluar
-            // 
+            
             this.btnEvaluar.Location = new System.Drawing.Point(475, 46);
             this.btnEvaluar.Name = "btnEvaluar";
             this.btnEvaluar.Size = new System.Drawing.Size(124, 23);
@@ -82,9 +75,9 @@
             this.btnEvaluar.Text = "Evaluar Mayor";
             this.btnEvaluar.UseVisualStyleBackColor = true;
             this.btnEvaluar.Click += new System.EventHandler(this.btnEvaluar_Click);
-            // 
+            
             // listBoxColores
-            // 
+            
             this.listBoxColores.FormattingEnabled = true;
             this.listBoxColores.ItemHeight = 16;
             this.listBoxColores.Location = new System.Drawing.Point(475, 124);
@@ -92,24 +85,24 @@
             this.listBoxColores.Size = new System.Drawing.Size(120, 84);
             this.listBoxColores.TabIndex = 5;
             this.listBoxColores.SelectedIndexChanged += new System.EventHandler(this.listBoxColores_SelectedIndexChanged);
-            // 
+            
             // contextMenuStrip1
-            // 
+            
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cAMBIARCOLORToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(211, 28);
-            // 
+            
             // cAMBIARCOLORToolStripMenuItem
-            // 
+            
             this.cAMBIARCOLORToolStripMenuItem.Name = "cAMBIARCOLORToolStripMenuItem";
             this.cAMBIARCOLORToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.cAMBIARCOLORToolStripMenuItem.Text = "CAMBIAR COLOR";
             this.cAMBIARCOLORToolStripMenuItem.Click += new System.EventHandler(this.cambiarColorDeFondoToolStripMenuItem_Click);
-            // 
+            
             // Form1
-            // 
+         
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);

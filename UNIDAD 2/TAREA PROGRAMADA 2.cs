@@ -16,11 +16,11 @@ namespace UNIDAD_2
         {
             InitializeComponent();
 
-            // Línea para conectar el evento del ListBox automáticamente
+            //  ListBox 
             this.listBoxColores.SelectedIndexChanged += new System.EventHandler(this.listBoxColores_SelectedIndexChanged);
         }
 
-        // 1. Cargar los colores en el ListBox al iniciar el formulario
+        //  Cargar los colores en el ListBox 
         private void Form1_Load(object sender, EventArgs e)
         {
             listBoxColores.Items.Add("Rojo");
@@ -28,7 +28,7 @@ namespace UNIDAD_2
             listBoxColores.Items.Add("Azul");
         }
 
-        // 2. Método del Botón para evaluar qué número es mayor (usando IF / ELSE)
+        //  Método del Botón IF / ELSE
         private void btnEvaluar_Click(object sender, EventArgs e)
         {
             try
@@ -55,7 +55,7 @@ namespace UNIDAD_2
             }
         }
 
-        // 3. Método para cambiar el fondo al hacer clic en un elemento del ListBox
+        // cambiar el fondo al hacer clic ListBox
         private void listBoxColores_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (listBoxColores.SelectedItem != null)
@@ -77,7 +77,7 @@ namespace UNIDAD_2
             }
         }
 
-        // 4. Método del menú contextual (ContextMenuStrip) con ColorDialog
+        // menú contextual
         private void cambiarColorDeFondoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (colorDialog1.ShowDialog() == DialogResult.OK)
