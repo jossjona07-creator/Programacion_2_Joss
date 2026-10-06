@@ -14,7 +14,7 @@ namespace EJEMPLO_1_SUMA_DE_DOS_NUMEROS_INGRESADOS
             Form menu = new Form();
             menu.Text = "SELECCIONAR EJERCICIO";
             menu.Width = 400;
-            menu.Height = 300;
+            menu.Height = 350;
             menu.StartPosition = FormStartPosition.CenterScreen;
 
             Label titulo = new Label();
@@ -84,3 +84,4 @@ namespace EJEMPLO_1_SUMA_DE_DOS_NUMEROS_INGRESADOS
         }
     }
 }
+
