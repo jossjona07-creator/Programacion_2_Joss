@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRACTICA PROGRAMADA 3 ( TAR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNIDAD 4", "UNIDAD 4\UNIDAD 4.csproj", "{B2D21C13-274D-4303-8A8E-42F2618695DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNIDAD 5", "UNIDAD 5\UNIDAD 5.csproj", "{243DAAD7-43BF-49EE-996B-C97599F0A085}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B2D21C13-274D-4303-8A8E-42F2618695DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2D21C13-274D-4303-8A8E-42F2618695DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2D21C13-274D-4303-8A8E-42F2618695DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243DAAD7-43BF-49EE-996B-C97599F0A085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243DAAD7-43BF-49EE-996B-C97599F0A085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243DAAD7-43BF-49EE-996B-C97599F0A085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243DAAD7-43BF-49EE-996B-C97599F0A085}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
