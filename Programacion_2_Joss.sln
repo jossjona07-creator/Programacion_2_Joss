@@ -15,6 +15,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNIDAD 4", "UNIDAD 4\UNIDAD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNIDAD 5", "UNIDAD 5\UNIDAD 5.csproj", "{243DAAD7-43BF-49EE-996B-C97599F0A085}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UNIDAD6.BD", "UNIDAD6.BD", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\DIAGRAMA JOSS.pdf = ..\..\..\Desktop\DIAGRAMA JOSS.pdf
+		..\..\..\Desktop\DIAGRAMA JOSS.png = ..\..\..\Desktop\DIAGRAMA JOSS.png
+		..\..\..\Desktop\MYSQLUNIDAD 6.sql = ..\..\..\Desktop\MYSQLUNIDAD 6.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
